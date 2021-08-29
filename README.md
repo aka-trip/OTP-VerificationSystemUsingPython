@@ -1,6 +1,7 @@
 # OTP-Verification-System
-Python Project
-Medium Link : 
+#### Python Project
+###Medium Link :
+
 ## STEPS to generate APP PasswordCancel changes
 1. Go to your Google Account.
 2. Select Security.
@@ -15,12 +16,14 @@ Medium Link :
 7. Tap Done.
 
 
-### Python already has a library that lets you connect to an SMTP server, like the one Gmail uses. This library is called, predictably, smtplib and comes included with Python.
+#### Python already has a library that lets you connect to an SMTP server, like the one Gmail uses. This library is called, predictably, smtplib and comes included with Python.
 
-### starttls() is an email protocol command that tells an email server that an email client, including an email client running in a web browser, wants to turn an existing insecure connection into a secure one.
+#### starttls() is an email protocol command that tells an email server that an email client, including an email client running in a web browser, wants to turn an existing insecure connection into a secure one.
 
-### Using smtplib library, there are a few different ways you can create a connection to your mail server. Here we'll focus on creating a plain, insecure connection (which should rarely, if ever, be used). This connection is unencrypted and defaults to port 25. However, the protocol for mail submission actually uses 587, which is what we'll use.
+#### Using smtplib library, there are a few different ways you can create a connection to your mail server. Here we'll focus on creating a plain, insecure connection (which should rarely, if ever, be used). This connection is unencrypted and defaults to port 25. However, the protocol for mail submission actually uses 587, which is what we'll use.
+
+#### For more info visit : https://docs.python.org/3/library/smtplib.html
 
 SMTP (Simple Mail Transfer Protocol) is an application-level protocol (on top of TCP) used to communicate with mail servers from external services, like an email client on your phone. SMTP is a delivery protocol only, so you can't actually retrieve email with it, you can only send an email, which is what we'll be focusing on in this article. If you want to retrieve email instead, then you'll want to check out the IMAP (Internet Message Access Protocol) protocol. We should note that many email services, like Gmail, don't usually use SMTP on their internal mail servers. SMTP is usually just provided as an outward-facing interface to their service via the smtp.gmail.com server. This is mostly meant to be used by email clients on your phone or computer (like Outlook, Thunderbird, etc).
 
-#### For more info visit : https://docs.python.org/3/library/smtplib.html
+
