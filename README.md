@@ -1,6 +1,6 @@
 # OTP-Verification-System
 #### Python Project
-###Medium Link :
+### Medium Link :https://aka-trip.medium.com/otp-verification-using-python-598959e84f78
 
 ## STEPS to generate APP PasswordCancel changes
 1. Go to your Google Account.
